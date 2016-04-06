@@ -48,7 +48,7 @@ router.get('/scrape', function(req, res) {
 
 
             //console.log("long:", longdesc, " img:", imgSrc);
-            webItems[i]={'bicID:':bicID,'bicDescription':bicDescription, 'imgSrc':imgSrc, 'longdesc':longdesc}
+            webItems[i]={'bicID':bicID,'bicDescription':bicDescription, 'imgSrc':imgSrc, 'longdesc':longdesc}
           });
 
 
