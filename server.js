@@ -3,8 +3,10 @@ var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
 var bodyParser = require('body-parser');
+var cors = require('cors'); //for cross origin resource sharring
 var app     = express();
 
+app.use(cors()); //cross origin resource sharring
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 var port     = process.env.PORT || 8080; // set our port
