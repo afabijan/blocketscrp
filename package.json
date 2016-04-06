@@ -1,0 +1,21 @@
+{
+  "name": "bikescrape",
+  "version": "0.1.0",
+  "description": "A simple scraper that queries Blocket for biycle entries. To find my stolen bicycle",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cykel",
+    "stolen",
+    "sadness"
+  ],
+  "author": "Aleksander Fabijan",
+  "license": "ISC",
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest",
+  "body-parser" : "latest"}
+}
