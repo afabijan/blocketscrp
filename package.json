@@ -13,9 +13,11 @@
   ],
   "author": "Aleksander Fabijan",
   "license": "ISC",
-  "dependencies" : {
-    "express"    : "latest",
-    "request"    : "latest",
-    "cheerio"    : "latest",
-  "body-parser" : "latest"}
+  "dependencies": {
+    "body-parser": "latest",
+    "cheerio": "latest",
+    "cors": "^2.7.1",
+    "express": "latest",
+    "request": "latest"
+  }
 }
